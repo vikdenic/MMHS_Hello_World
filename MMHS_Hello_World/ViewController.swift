@@ -14,8 +14,9 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        myLabel.text = "Hello World"
+
+    self.myLabel.text = "Hello World"
+    self.myLabel.textColor = UIColor.orangeColor()
     }
 
     override func didReceiveMemoryWarning() {
