@@ -328,6 +328,7 @@
 				INFOPLIST_FILE = MMHS_Hello_World/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -339,6 +340,7 @@
 				INFOPLIST_FILE = MMHS_Hello_World/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -395,6 +397,7 @@
 				93FDFCC619742CED00FA302B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93FDFCC719742CED00FA302B /* Build configuration list for PBXNativeTarget "MMHS_Hello_WorldTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +406,7 @@
 				93FDFCC919742CED00FA302B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
