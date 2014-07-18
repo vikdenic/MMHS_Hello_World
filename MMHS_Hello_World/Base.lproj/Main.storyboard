@@ -16,17 +16,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNC-7P-KWF">
-                                <rect key="frame" x="20" y="193" width="440" height="94"/>
-                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="30"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="440" translatesAutoresizingMaskIntoConstraints="NO" id="vNC-7P-KWF">
+                                <rect key="frame" x="20" y="193" width="440" height="167"/>
+                                <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="22"/>
                                 <color key="textColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="vNC-7P-KWF" secondAttribute="centerY" id="JnF-af-4ZH"/>
-                            <constraint firstAttribute="centerX" secondItem="vNC-7P-KWF" secondAttribute="centerX" id="niZ-hT-Bqe"/>
+                            <constraint firstItem="vNC-7P-KWF" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="24f-me-6Mb"/>
+                            <constraint firstAttribute="trailing" secondItem="vNC-7P-KWF" secondAttribute="trailing" constant="20" id="JYb-xS-Axz"/>
+                            <constraint firstItem="vNC-7P-KWF" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="173" id="Lfu-8z-OPX"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="vNC-7P-KWF" secondAttribute="bottom" constant="120" id="cCf-HZ-wMD"/>
                         </constraints>
                     </view>
                     <connections>

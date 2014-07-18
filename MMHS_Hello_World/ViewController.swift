@@ -12,13 +12,14 @@ class ViewController: UIViewController {
                             
     @IBOutlet var myLabel: UILabel
     var favoriteBand = String()
+    var numberOfMembers = 4
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     favoriteBand = "Led Zeppelin"
 
-    self.myLabel.text = "\(favoriteBand)"
+    self.myLabel.text = favoriteBand + " has \(numberOfMembers) members"
     self.myLabel.textColor = UIColor.orangeColor()
     }
 
