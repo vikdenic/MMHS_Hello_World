@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
                             
-    @IBOutlet var myLabel: UILabel
+    @IBOutlet var myLabel: UILabel!
     var favoriteBand = String()
     var numberOfMembers = 4
 
